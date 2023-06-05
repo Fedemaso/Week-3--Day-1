@@ -131,11 +131,9 @@ function getStringLengths(arr) {
   return result;
 }
 
-let strings = ["Mario", "è", "laureato"];
 
-let lengths = getStringLengths(strings);
 
-console.log(lengths);
+console.log(getStringLengths(["Mario", "è", "laureato"]));
 
 
 
