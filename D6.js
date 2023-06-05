@@ -74,13 +74,19 @@ console.log(sum);
   Scrivi una funzione per sommare i numeri contenuti in un array (usare REDUCE)
 */
 
-const numeri = [1, 4, 6, 9, 14, 156]
-const total = numeri.reduce((totale, value) => {
+
+
+const sumreduce = function (arr) {
+
+let total = arr.reduce((totale, value) => {
   
   return totale + value 
-}) 
+})
 
-console.log(total) // 190
+return total
+}
+
+console.log(sumreduce ([2, 6, 7, 44])) // 190
 
 
 
