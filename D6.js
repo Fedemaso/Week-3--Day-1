@@ -3,7 +3,15 @@
   prima e gli ultimi 3 della seconda. Converti la stringa risultante in maiuscolo e mostrala con un console.log().
 */
 
+const concatstrings = function(str1, str2 ) {
+let first = str1.slice (0, 2) 
+let second = str2.slice (-3) 
+let result = first + second 
+result = result.toUpperCase()
+console.log(result)
 
+}
+concatstrings ("hello" , "Epicode")
 
 
 /* ESERCIZIO 2
