@@ -110,7 +110,7 @@ function incrementArrayValues(arr, n) {
 }
 
 
-
+console.log(incrementArrayValues( [2, 4, 8, 44, 21] , 2 ) )
 
 
 
